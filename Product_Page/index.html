@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="./images/Red.jpg" id="productImage">
+                <div class="controls">
+                    <span class="btn active" data-color="Red"></span>
+                    <span class="btn" data-color="Black"></span>
+                    <span class="btn" data-color="White"></span>
+                    <span class="btn" data-color="Blue"></span>
+                </div>
+            </div>
+            <div class="details">
+                <h1>Continental GT</h1>
+                <h2>₹ 3,39,000</h2>
+                <h3>Ex-Showroom price.</h3>
+                <p>Royal Enfield Continental GT 650 is a cafe racer bike.</p>
+                <form>
+                    <div class="color-select">
+                        <p>Color</p>
+
+                        <label for="red">
+                            <input type="radio" name="color" id="red">
+                            <span class="color-1" class="btn"></span>
+                        </label>
+                        <label for="black">
+                            <input type="radio" name="color" id="black">
+                            <span class="color-2"></span>
+                        </label>
+                        <label for="white">
+                            <input type="radio" name="color" id="white">
+                            <span class="color-3"></span>
+                        </label>
+                        <label for="blue">
+                            <input type="radio" name="color" id="blue">
+                            <span class="color-4"></span>
+                        </label>
+                    </div>
+
+                    <div class="location-select">
+                        <p>Location</p>
+                        <select name="location" id="location">
+                            <option value="Select">Select</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Lucknow">Lucknow</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Pune">Pune</option>
+                        </select>
+                    </div>
+
+                    <button>
+                        Buy Now
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+    </div>
+    <footer class="Demo-footer">
+        <p> 🧑‍💻Abhijay Srivastava | <a href="https://github.com/Abhi1905">Github</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
